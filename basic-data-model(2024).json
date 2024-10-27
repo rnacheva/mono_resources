@@ -1,0 +1,1315 @@
+{
+  "version": "2.0.0-beta.0",
+  "visualisation": {
+    "nodes": [
+      {
+        "id": "n:1",
+        "position": {
+          "x": 171.81751792030823,
+          "y": 126.53228063898668
+        }
+      },
+      {
+        "id": "n:2",
+        "position": {
+          "x": -173.84531459043134,
+          "y": 14.73564287661037
+        }
+      },
+      {
+        "id": "n:3",
+        "position": {
+          "x": -117.18599142778224,
+          "y": -215.2307203477526
+        }
+      },
+      {
+        "id": "n:4",
+        "position": {
+          "x": 265.46247795168426,
+          "y": -72.27814429817515
+        }
+      },
+      {
+        "id": "n:5",
+        "position": {
+          "x": 288.1845562509198,
+          "y": 107.68505124194037
+        }
+      },
+      {
+        "id": "n:6",
+        "position": {
+          "x": -169.58795782936033,
+          "y": 147.34427628091802
+        }
+      },
+      {
+        "id": "n:7",
+        "position": {
+          "x": 235.9824201522366,
+          "y": -177.89697493642115
+        }
+      },
+      {
+        "id": "n:8",
+        "position": {
+          "x": 285.263413664263,
+          "y": 237.6616730568825
+        }
+      },
+      {
+        "id": "n:9",
+        "position": {
+          "x": -86.34191579128733,
+          "y": 44.533455239481796
+        }
+      },
+      {
+        "id": "n:10",
+        "position": {
+          "x": 225.3270702036904,
+          "y": 376.1812223879838
+        }
+      },
+      {
+        "id": "n:11",
+        "position": {
+          "x": 54.841471026950444,
+          "y": 340.21941631164015
+        }
+      },
+      {
+        "id": "n:12",
+        "position": {
+          "x": -43.72051599710238,
+          "y": 285.61074782534064
+        }
+      },
+      {
+        "id": "n:13",
+        "position": {
+          "x": 33.53077112985794,
+          "y": 121.78474236644209
+        }
+      },
+      {
+        "id": "n:14",
+        "position": {
+          "x": 113.44589574395481,
+          "y": -39.37742560531987
+        }
+      },
+      {
+        "id": "n:15",
+        "position": {
+          "x": -184.9039028153401,
+          "y": 326.90022887595734
+        }
+      }
+    ]
+  },
+  "dataModel": {
+    "version": "2.0.0-beta.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:1",
+            "token": "Дигитално приобщаване",
+            "properties": []
+          },
+          {
+            "$id": "nl:2",
+            "token": "Дейности",
+            "properties": [
+              {
+                "$id": "p:14",
+                "token": "Вид",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:15",
+                "token": "Период",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:16",
+                "token": "Описание",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:35",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:3",
+            "token": "Приобщаване към работното място",
+            "properties": []
+          },
+          {
+            "$id": "nl:4",
+            "token": "Многообразие",
+            "properties": []
+          },
+          {
+            "$id": "nl:5",
+            "token": "Индивидуален профил",
+            "properties": []
+          },
+          {
+            "$id": "nl:6",
+            "token": "Дигитална достъпност",
+            "properties": []
+          },
+          {
+            "$id": "nl:7",
+            "token": "Политики",
+            "properties": [
+              {
+                "$id": "p:21",
+                "token": "Вид",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:22",
+                "token": "Наименование",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:23",
+                "token": "Вид-на-увреждане",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:24",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:8",
+            "token": "Характеристика",
+            "properties": [
+              {
+                "$id": "p:1",
+                "token": "Пол",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:2",
+                "token": "Възраст",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:25",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:9",
+            "token": "Ресурси",
+            "properties": [
+              {
+                "$id": "p:12",
+                "token": "Вид",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:13",
+                "token": "Характеристики",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:34",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:10",
+            "token": "Увреждане",
+            "properties": [
+              {
+                "$id": "p:3",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:4",
+                "token": "Вид",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:5",
+                "token": "Подвид",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:11",
+            "token": "Ограничения",
+            "properties": [
+              {
+                "$id": "p:26",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:27",
+                "token": "Наименование",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:28",
+                "token": "Вид-на-увреждане",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:12",
+            "token": "Дигитални ресурси",
+            "properties": [
+              {
+                "$id": "p:6",
+                "token": "Вид",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:7",
+                "token": "Предназначение",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:8",
+                "token": "Характеристики",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:33",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:13",
+            "token": "Програми за обучение",
+            "properties": [
+              {
+                "$id": "p:29",
+                "token": "ID",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:30",
+                "token": "Наименование",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:31",
+                "token": "Описание",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:32",
+                "token": "Вид-на-увреждане",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:14",
+            "token": "Помощни технологии",
+            "properties": [
+              {
+                "$id": "p:9",
+                "token": "Вид",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:10",
+                "token": "Вид-на-увреждане",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:11",
+                "token": "Характеристики",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:15",
+            "token": "Международни стандарти",
+            "properties": [
+              {
+                "$id": "p:17",
+                "token": "Номер",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:18",
+                "token": "Наименование",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:19",
+                "token": "Вид-на-увреждане",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:20",
+                "token": "Последна-ревизия",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          }
+        ],
+        "relationshipTypes": [
+          {
+            "$id": "rt:4",
+            "token": "се характеризира с",
+            "properties": []
+          },
+          {
+            "$id": "rt:6",
+            "token": "допринася за",
+            "properties": []
+          },
+          {
+            "$id": "rt:8",
+            "token": "включва",
+            "properties": []
+          },
+          {
+            "$id": "rt:7",
+            "token": "установява",
+            "properties": []
+          },
+          {
+            "$id": "rt:1",
+            "token": "определя",
+            "properties": []
+          },
+          {
+            "$id": "rt:9",
+            "token": "предоставя",
+            "properties": []
+          },
+          {
+            "$id": "rt:2",
+            "token": "е свързана с",
+            "properties": []
+          },
+          {
+            "$id": "rt:3",
+            "token": "налага",
+            "properties": []
+          },
+          {
+            "$id": "rt:10",
+            "token": "влияят върху",
+            "properties": []
+          },
+          {
+            "$id": "rt:5",
+            "token": "осигурява достъп до",
+            "properties": []
+          },
+          {
+            "$id": "rt:11",
+            "token": "се характеризират с",
+            "properties": []
+          },
+          {
+            "$id": "rt:12",
+            "token": "осигурява достъп до",
+            "properties": []
+          },
+          {
+            "$id": "rt:13",
+            "token": "осигуряват",
+            "properties": []
+          },
+          {
+            "$id": "rt:14",
+            "token": "подпомагат използването на",
+            "properties": []
+          },
+          {
+            "$id": "rt:15",
+            "token": "подпомагат изпълнението на",
+            "properties": []
+          },
+          {
+            "$id": "rt:16",
+            "token": "подпомагат",
+            "properties": []
+          },
+          {
+            "$id": "rt:17",
+            "token": "отговаря на",
+            "properties": []
+          },
+          {
+            "$id": "rt:18",
+            "token": "се характеризират с",
+            "properties": []
+          },
+          {
+            "$id": "rt:19",
+            "token": "зависи от",
+            "properties": []
+          }
+        ],
+        "nodeObjectTypes": [
+          {
+            "$id": "n:1",
+            "labels": [
+              {
+                "$ref": "#nl:1"
+              }
+            ]
+          },
+          {
+            "$id": "n:2",
+            "labels": [
+              {
+                "$ref": "#nl:2"
+              }
+            ]
+          },
+          {
+            "$id": "n:3",
+            "labels": [
+              {
+                "$ref": "#nl:3"
+              }
+            ]
+          },
+          {
+            "$id": "n:4",
+            "labels": [
+              {
+                "$ref": "#nl:4"
+              }
+            ]
+          },
+          {
+            "$id": "n:5",
+            "labels": [
+              {
+                "$ref": "#nl:5"
+              }
+            ]
+          },
+          {
+            "$id": "n:6",
+            "labels": [
+              {
+                "$ref": "#nl:6"
+              }
+            ]
+          },
+          {
+            "$id": "n:7",
+            "labels": [
+              {
+                "$ref": "#nl:7"
+              }
+            ]
+          },
+          {
+            "$id": "n:8",
+            "labels": [
+              {
+                "$ref": "#nl:8"
+              }
+            ]
+          },
+          {
+            "$id": "n:9",
+            "labels": [
+              {
+                "$ref": "#nl:9"
+              }
+            ]
+          },
+          {
+            "$id": "n:10",
+            "labels": [
+              {
+                "$ref": "#nl:10"
+              }
+            ]
+          },
+          {
+            "$id": "n:11",
+            "labels": [
+              {
+                "$ref": "#nl:11"
+              }
+            ]
+          },
+          {
+            "$id": "n:12",
+            "labels": [
+              {
+                "$ref": "#nl:12"
+              }
+            ]
+          },
+          {
+            "$id": "n:13",
+            "labels": [
+              {
+                "$ref": "#nl:13"
+              }
+            ]
+          },
+          {
+            "$id": "n:14",
+            "labels": [
+              {
+                "$ref": "#nl:14"
+              }
+            ]
+          },
+          {
+            "$id": "n:15",
+            "labels": [
+              {
+                "$ref": "#nl:15"
+              }
+            ]
+          }
+        ],
+        "relationshipObjectTypes": [
+          {
+            "$id": "r:4",
+            "type": {
+              "$ref": "#rt:4"
+            },
+            "from": {
+              "$ref": "#n:4"
+            },
+            "to": {
+              "$ref": "#n:5"
+            }
+          },
+          {
+            "$id": "r:6",
+            "type": {
+              "$ref": "#rt:6"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:4"
+            }
+          },
+          {
+            "$id": "r:8",
+            "type": {
+              "$ref": "#rt:8"
+            },
+            "from": {
+              "$ref": "#n:5"
+            },
+            "to": {
+              "$ref": "#n:8"
+            }
+          },
+          {
+            "$id": "r:7",
+            "type": {
+              "$ref": "#rt:7"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:7"
+            }
+          },
+          {
+            "$id": "r:1",
+            "type": {
+              "$ref": "#rt:1"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:2"
+            }
+          },
+          {
+            "$id": "r:9",
+            "type": {
+              "$ref": "#rt:9"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:9"
+            }
+          },
+          {
+            "$id": "r:2",
+            "type": {
+              "$ref": "#rt:2"
+            },
+            "from": {
+              "$ref": "#n:8"
+            },
+            "to": {
+              "$ref": "#n:10"
+            }
+          },
+          {
+            "$id": "r:3",
+            "type": {
+              "$ref": "#rt:3"
+            },
+            "from": {
+              "$ref": "#n:10"
+            },
+            "to": {
+              "$ref": "#n:11"
+            }
+          },
+          {
+            "$id": "r:10",
+            "type": {
+              "$ref": "#rt:10"
+            },
+            "from": {
+              "$ref": "#n:11"
+            },
+            "to": {
+              "$ref": "#n:1"
+            }
+          },
+          {
+            "$id": "r:5",
+            "type": {
+              "$ref": "#rt:5"
+            },
+            "from": {
+              "$ref": "#n:1"
+            },
+            "to": {
+              "$ref": "#n:12"
+            }
+          },
+          {
+            "$id": "r:11",
+            "type": {
+              "$ref": "#rt:11"
+            },
+            "from": {
+              "$ref": "#n:12"
+            },
+            "to": {
+              "$ref": "#n:6"
+            }
+          },
+          {
+            "$id": "r:12",
+            "type": {
+              "$ref": "#rt:12"
+            },
+            "from": {
+              "$ref": "#n:1"
+            },
+            "to": {
+              "$ref": "#n:13"
+            }
+          },
+          {
+            "$id": "r:13",
+            "type": {
+              "$ref": "#rt:13"
+            },
+            "from": {
+              "$ref": "#n:14"
+            },
+            "to": {
+              "$ref": "#n:6"
+            }
+          },
+          {
+            "$id": "r:14",
+            "type": {
+              "$ref": "#rt:14"
+            },
+            "from": {
+              "$ref": "#n:14"
+            },
+            "to": {
+              "$ref": "#n:9"
+            }
+          },
+          {
+            "$id": "r:15",
+            "type": {
+              "$ref": "#rt:15"
+            },
+            "from": {
+              "$ref": "#n:14"
+            },
+            "to": {
+              "$ref": "#n:2"
+            }
+          },
+          {
+            "$id": "r:16",
+            "type": {
+              "$ref": "#rt:16"
+            },
+            "from": {
+              "$ref": "#n:14"
+            },
+            "to": {
+              "$ref": "#n:1"
+            }
+          },
+          {
+            "$id": "r:17",
+            "type": {
+              "$ref": "#rt:17"
+            },
+            "from": {
+              "$ref": "#n:6"
+            },
+            "to": {
+              "$ref": "#n:15"
+            }
+          },
+          {
+            "$id": "r:18",
+            "type": {
+              "$ref": "#rt:18"
+            },
+            "from": {
+              "$ref": "#n:13"
+            },
+            "to": {
+              "$ref": "#n:6"
+            }
+          },
+          {
+            "$id": "r:19",
+            "type": {
+              "$ref": "#rt:19"
+            },
+            "from": {
+              "$ref": "#n:1"
+            },
+            "to": {
+              "$ref": "#n:7"
+            }
+          }
+        ],
+        "constraints": [
+          {
+            "$id": "c:2",
+            "name": "ID_Увреждане_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:10"
+            },
+            "properties": [
+              {
+                "$ref": "#p:3"
+              }
+            ]
+          },
+          {
+            "$id": "c:4",
+            "name": "Вид_Помощни_технологии_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:14"
+            },
+            "properties": [
+              {
+                "$ref": "#p:9"
+              }
+            ]
+          },
+          {
+            "$id": "c:7",
+            "name": "Номер_Международни_стандарти_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:15"
+            },
+            "properties": [
+              {
+                "$ref": "#p:17"
+              }
+            ]
+          },
+          {
+            "$id": "c:8",
+            "name": "ID_Политики_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:7"
+            },
+            "properties": [
+              {
+                "$ref": "#p:24"
+              }
+            ]
+          },
+          {
+            "$id": "c:1",
+            "name": "ID_Характеристика_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:8"
+            },
+            "properties": [
+              {
+                "$ref": "#p:25"
+              }
+            ]
+          },
+          {
+            "$id": "c:9",
+            "name": "ID_Ограничения_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:11"
+            },
+            "properties": [
+              {
+                "$ref": "#p:26"
+              }
+            ]
+          },
+          {
+            "$id": "c:10",
+            "name": "ID_Програми_за обучение_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:13"
+            },
+            "properties": [
+              {
+                "$ref": "#p:29"
+              }
+            ]
+          },
+          {
+            "$id": "c:3",
+            "name": "ID_Дигитални_ресурси_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:12"
+            },
+            "properties": [
+              {
+                "$ref": "#p:33"
+              }
+            ]
+          },
+          {
+            "$id": "c:5",
+            "name": "ID_Ресурси_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:9"
+            },
+            "properties": [
+              {
+                "$ref": "#p:34"
+              }
+            ]
+          },
+          {
+            "$id": "c:6",
+            "name": "ID_Дейности_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:2"
+            },
+            "properties": [
+              {
+                "$ref": "#p:35"
+              }
+            ]
+          }
+        ],
+        "indexes": [
+          {
+            "$id": "i:1",
+            "name": "ID_Характеристика_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:8"
+            },
+            "properties": [
+              {
+                "$ref": "#p:25"
+              }
+            ]
+          },
+          {
+            "$id": "i:2",
+            "name": "ID_Увреждане_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:10"
+            },
+            "properties": [
+              {
+                "$ref": "#p:3"
+              }
+            ]
+          },
+          {
+            "$id": "i:3",
+            "name": "ID_Дигитални_ресурси_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:12"
+            },
+            "properties": [
+              {
+                "$ref": "#p:33"
+              }
+            ]
+          },
+          {
+            "$id": "i:4",
+            "name": "Вид_Помощни_технологии_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:14"
+            },
+            "properties": [
+              {
+                "$ref": "#p:9"
+              }
+            ]
+          },
+          {
+            "$id": "i:5",
+            "name": "ID_Ресурси_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:9"
+            },
+            "properties": [
+              {
+                "$ref": "#p:34"
+              }
+            ]
+          },
+          {
+            "$id": "i:6",
+            "name": "ID_Дейности_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:2"
+            },
+            "properties": [
+              {
+                "$ref": "#p:35"
+              }
+            ]
+          },
+          {
+            "$id": "i:7",
+            "name": "Номер_Международни_стандарти_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:15"
+            },
+            "properties": [
+              {
+                "$ref": "#p:17"
+              }
+            ]
+          },
+          {
+            "$id": "i:8",
+            "name": "ID_Политики_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:7"
+            },
+            "properties": [
+              {
+                "$ref": "#p:24"
+              }
+            ]
+          },
+          {
+            "$id": "i:9",
+            "name": "ID_Ограничения_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:11"
+            },
+            "properties": [
+              {
+                "$ref": "#p:26"
+              }
+            ]
+          },
+          {
+            "$id": "i:10",
+            "name": "ID_Програми_за обучение_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:13"
+            },
+            "properties": [
+              {
+                "$ref": "#p:29"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": [
+        {
+          "node": {
+            "$ref": "#n:8"
+          },
+          "keyProperty": {
+            "$ref": "#p:25"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:10"
+          },
+          "keyProperty": {
+            "$ref": "#p:3"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:12"
+          },
+          "keyProperty": {
+            "$ref": "#p:33"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:14"
+          },
+          "keyProperty": {
+            "$ref": "#p:9"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:9"
+          },
+          "keyProperty": {
+            "$ref": "#p:34"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:2"
+          },
+          "keyProperty": {
+            "$ref": "#p:35"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:15"
+          },
+          "keyProperty": {
+            "$ref": "#p:17"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:7"
+          },
+          "keyProperty": {
+            "$ref": "#p:24"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:11"
+          },
+          "keyProperty": {
+            "$ref": "#p:26"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:13"
+          },
+          "keyProperty": {
+            "$ref": "#p:29"
+          }
+        }
+      ]
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": {
+        "type": "unset",
+        "tableSchemas": []
+      },
+      "nodeMappings": [],
+      "relationshipMappings": []
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}
