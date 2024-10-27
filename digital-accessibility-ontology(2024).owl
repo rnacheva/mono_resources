@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Target size">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Target size</rdfs:label>
+    <rdfs:comment>All functionality can be used without needing to accurately position a pointer.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Use of spatial audio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Use of spatial audio</rdfs:label>
+    <rdfs:comment>Information is not conveyed with spatial audio alone.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Task completion documentation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Task completion documentation</rdfs:label>
+    <rdfs:comment>For tasks where labels and instructions cannot provide sufficient instructions for completion, detailed documentation on task completion is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/White spacing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>White spacing</rdfs:label>
+    <rdfs:comment>Whitespace separates chunks of content.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Comparable keyboard effort">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Comparable keyboard effort</rdfs:label>
+    <rdfs:comment>The number of input commands required to complete a task using the keyboard is similar to the number of input commands when using other input modalities.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/No memorization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>No memorization</rdfs:label>
+    <rdfs:comment>Tasks can be completed without memorizing and recalling information from previous stages of the process.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Non-verbal cues">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Non-verbal cues</rdfs:label>
+    <rdfs:comment>Media alternatives explain nonverbal cues, such as tone of voice, facial expressions, body gestures, or music with emotional meaning.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Familiar components and layout">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Familiar components and layout</rdfs:label>
+    <rdfs:comment>Common components and layouts are used.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Go back in process">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Go back in process</rdfs:label>
+    <rdfs:comment>The interface supports stepping backwards in a process and returning to the current point without data loss.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Uncommon words">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Uncommon words</rdfs:label>
+    <rdfs:comment>Definitions for uncommon or new words are available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/AI editable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>AI editable</rdfs:label>
+    <rdfs:comment>Auto generated text descriptions are editable by content creator.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Error association">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Error association</rdfs:label>
+    <rdfs:comment>Error notifications are programmatically associated with the error source.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Context in image alternative">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Context in image alternative</rdfs:label>
+    <rdfs:comment>Image alternatives include context.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Keyboard mode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Keyboard mode</rdfs:label>
+    <rdfs:comment>The keyboard input mode is indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Haptic stimulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Haptic stimulation</rdfs:label>
+    <rdfs:comment>Haptic feedback can be reduced or turned off.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Input control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Input control</rdfs:label>
+    <rdfs:comment>Interactive components are available to all navigation and input methods.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Clear navigation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Clear navigation</rdfs:label>
+    <rdfs:comment>Navigation elements are visually and programmatically differentiated from static content.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Conventions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Conventions</rdfs:label>
+    <rdfs:comment>Controls follow established conventions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Clear background">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Clear background</rdfs:label>
+    <rdfs:comment>Patterns, designs or images placed behind text are avoided or can be removed.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Avoid manipulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Avoid manipulation</rdfs:label>
+    <rdfs:comment>Tasks can be completed without navigating misinformation or redirections.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Persistent figure captions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Persistent figure captions</rdfs:label>
+    <rdfs:comment>Figure captions persist or can be made to persist.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Maximum text contrast">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Maximum text contrast</rdfs:label>
+    <rdfs:comment>The rendered text against its background meets a maximum ‘contrast ratio test’ for its text appearance and use.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Clear starting point">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Clear starting point</rdfs:label>
+    <rdfs:comment>The starting point or home is visually and programmatically labeled.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Optimized processes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Optimized processes</rdfs:label>
+    <rdfs:comment>Tasks can be completed without reading or understanding unnecessary content.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Control labels">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Control labels</rdfs:label>
+    <rdfs:comment>Controls have visible labels that identify the purpose of the controls.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Persistent error notification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Persistent error notification</rdfs:label>
+    <rdfs:comment>Error notifications persist until the user dismisses them or the error is resolved.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Consistent help">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Consistent help</rdfs:label>
+    <rdfs:comment>Help is labeled consistently and provided in a consistent visual and programmatic location.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Flashing and strobing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Flashing and strobing</rdfs:label>
+    <rdfs:comment>Flashing or strobing beyond thresholds defined by safety standards are avoided; or can be paused or prevented.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Hover information">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Hover information</rdfs:label>
+    <rdfs:comment>Components which trigger a 'change of context' are indicated, or the change of context can be reversed.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Change focus with pointer device">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Change focus with pointer device</rdfs:label>
+    <rdfs:comment>Selecting an element with a ‘pointer’ sets the focus to that element.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Clear agreement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Clear agreement</rdfs:label>
+    <rdfs:comment>The interface clearly indicates when a user is entering an agreement or submitting data.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Use of visual depth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Use of visual depth</rdfs:label>
+    <rdfs:comment>Information is not conveyed with visual depth alone.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Topic sentence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Topic sentence</rdfs:label>
+    <rdfs:comment>Each paragraph of text begins with a topic sentence stating the aim or purpose.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Media alternative control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Media alternative control</rdfs:label>
+    <rdfs:comment>Captions and audio descriptions can be turned on and off.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/No keyboard trap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>No keyboard trap</rdfs:label>
+    <rdfs:comment>If keyboard focus can be moved to an interactive component, then the keyboard focus can be moved away from that component.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Data visualization help">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Data visualization help</rdfs:label>
+    <rdfs:comment>Help understanding and using data visualizations is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Captions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Captions</rdfs:label>
+    <rdfs:comment>Equivalent audio alternatives are available as synchronized captions in the media.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Numbered steps">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Numbered steps</rdfs:label>
+    <rdfs:comment>Steps in a multi-step process are numbered.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Use without device movement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Use without device movement</rdfs:label>
+    <rdfs:comment>All functionality can be done without needing to move the hardware device.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Image type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Image type</rdfs:label>
+    <rdfs:comment>The type of image (photo, icon, etc.) is indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Summary">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Summary</rdfs:label>
+    <rdfs:comment>Access to a plain-language summary, abstract, or executive summaries is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Minimum text contrast">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Minimum text contrast</rdfs:label>
+    <rdfs:comment>The rendered text against its background meets a minimum ‘contrast ratio test’ for its text appearance and use.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Input instructions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Input instructions</rdfs:label>
+    <rdfs:comment>Input constraints or conditions (required line length, date format, password format, etc) are programmatically and visually indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Name, role, value, state">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Name, role, value, state</rdfs:label>
+    <rdfs:comment>Accurate names, roles, values, and states are available for interactive components.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Preselections">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Preselections</rdfs:label>
+    <rdfs:comment>Preselections are visible during task completion.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Text style">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Text style</rdfs:label>
+    <rdfs:comment>The rendered text does not use a decorative or cursive font face.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Conveying importance without sizing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Conveying importance without sizing</rdfs:label>
+    <rdfs:comment>When font size conveys meaning (such as headings), the text maintains its meaning and purpose when text is resized.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Interface Verbosity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Interface Verbosity</rdfs:label>
+    <rdfs:comment>The interface avoids overwhelming verbosity.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Distinguishable sections">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Distinguishable sections</rdfs:label>
+    <rdfs:comment>Sections are visually and programmatically distinguishable.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Control importance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Control importance</rdfs:label>
+    <rdfs:comment>The importance of controls is visually and programmatically indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Feedback mechanism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Feedback mechanism</rdfs:label>
+    <rdfs:comment>Feedback can be provided.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Optional information">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Optional information</rdfs:label>
+    <rdfs:comment>Tasks can be completed without entering unnecessary information.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Lists">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Lists</rdfs:label>
+    <rdfs:comment>Three or more items of related data are presented as bulleted or numbered lists.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Identify autogenerated text">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Identify autogenerated text</rdfs:label>
+    <rdfs:comment>Auto generated text alternatives are identified.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Image role">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Image role</rdfs:label>
+    <rdfs:comment>The role and importance of images are programmatically indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Text Customization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Text Customization</rdfs:label>
+    <rdfs:comment>Text appearance [font, size, etc] and layout [spacing, single column] can be customized by the user.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Non-text alternatives">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Non-text alternatives</rdfs:label>
+    <rdfs:comment>Equivalent text alternatives are available for non-text, non-image content that conveys context or meaning.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Contextual help">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Contextual help</rdfs:label>
+    <rdfs:comment>Contextual help is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Disability information privacy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Disability information privacy</rdfs:label>
+    <rdfs:comment>Disability information is not disclosed to or used by third parties and algorithms (including AI).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Pointer location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pointer location</rdfs:label>
+    <rdfs:comment>Users are able to determine where the pointer is located.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Complex image alternative">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Complex image alternative</rdfs:label>
+    <rdfs:comment>Equivalent text alternatives are available for complex images.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Relevant focus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Relevant focus</rdfs:label>
+    <rdfs:comment>The focus order does not include repetitive, hidden, or static elements.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Distinguishable relationships">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Distinguishable relationships</rdfs:label>
+    <rdfs:comment>Meaningful associations between distinct pieces of content are programmatically determinable.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Visual design of controls">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Visual design of controls</rdfs:label>
+    <rdfs:comment>Controls that have similar function and behavior have a consistent visual design.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Algorithm bias">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Algorithm bias</rdfs:label>
+    <rdfs:comment>Algorithms (including AI) used are not biased against people with disabilities.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Figurative language">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Figurative language</rdfs:label>
+    <rdfs:comment>Explanations for figurative and non-literal language [such as jokes, sarcasm, hyperbole, metaphors, similes, and idioms] are available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Multistep process">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Multistep process</rdfs:label>
+    <rdfs:comment>Provides context that orients the user in a site or multi-step process.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Reflow">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Reflow</rdfs:label>
+    <rdfs:comment>Content can be viewed in multiple size viewports, orientations, and zoom levels without loss of content, functionality and meaningful relationships and with scrolling only occurring in 1 direction.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/User settings">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>User settings</rdfs:label>
+    <rdfs:comment>User settings are honored when using or reviewing content.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Alternative presentation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Alternative presentation</rdfs:label>
+    <rdfs:comment>Complex information or instructions for complex processes are available in multiple presentation formats.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Audio alternative in preferred language">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Audio alternative in preferred language</rdfs:label>
+    <rdfs:comment>Equivalent audio alternatives are available in the preferred language.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Visual stimulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Visual stimulation</rdfs:label>
+    <rdfs:comment>Use does not cause visual overstimulation.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Personalizable help">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Personalizable help</rdfs:label>
+    <rdfs:comment>Adaptable/personalizable help is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Disturbing content">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Disturbing content</rdfs:label>
+    <rdfs:comment>Warnings about content that may be emotionally disturbing are available and the content can be hidden.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Control location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Control location</rdfs:label>
+    <rdfs:comment>Controls are visually and programmatically located in an expected location.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Organized content">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Organized content</rdfs:label>
+    <rdfs:comment>Provides context that orients the user in a site or multi-step process.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Media chapters">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Media chapters</rdfs:label>
+    <rdfs:comment>Media can be navigated by chapters.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Notify before activation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Notify before activation</rdfs:label>
+    <rdfs:comment>Controls that can alter the order of content convey their purpose prior to activation, and convey their impact on content order when activated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Error notification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Error notification</rdfs:label>
+    <rdfs:comment>Error notifications are provided when an error occurs that describe the error and either provide instructions to fix the error or state that the system is at fault.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Title Multimedia Content</rdfs:label>
+    <rdfs:comment>Content has a title or high-level description.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Section purpose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Section purpose</rdfs:label>
+    <rdfs:comment>The purpose of each section of the content is clearly indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Input labels">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Input labels</rdfs:label>
+    <rdfs:comment>Inputs have visible labels that identify the purpose of the input.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Audio control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Audio control</rdfs:label>
+    <rdfs:comment>Audio can be turned off, independent of the system audio, while allowing video to play.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Images-of-Text alternatives">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Images-of-Text alternatives</rdfs:label>
+    <rdfs:comment>Equivalent text alternatives are available for images of text.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Consistent labels">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Consistent labels</rdfs:label>
+    <rdfs:comment>Controls and inputs with the same functionality have consistent labels.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Decorative image alternative">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Decorative image alternative</rdfs:label>
+    <rdfs:comment>Equivalent descriptive text alternatives are available for decorative images.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Varied inputs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Varied inputs</rdfs:label>
+    <rdfs:comment>Any input modality available on a platform can be used concurrently.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Clear relationships">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Clear relationships</rdfs:label>
+    <rdfs:comment>The relationships between parts of the content is clearly indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Multiple ways">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Multiple ways</rdfs:label>
+    <rdfs:comment>The product provides at least two ways of navigating and finding information (Search, Scan, Site Map, Menu Structure, Breadcrumbs, contextual links, etc).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Inform at start">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Inform at start</rdfs:label>
+    <rdfs:comment>Information needed to complete a multi-step process is provided at the start of the process, including:</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Section headers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Section headers</rdfs:label>
+    <rdfs:comment>Sections of content have well structured, understandable visual and programmatic headings.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Focus retention">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Focus retention</rdfs:label>
+    <rdfs:comment>A user can focus on a content “area,” such as a modal or pop=up, then resume their view of all content using a limited number of steps.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Double negatives">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Double negatives</rdfs:label>
+    <rdfs:comment>Content does not include double negatives to express a positive unless it is standard usage for that language or dialect.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Use of sound">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Use of sound</rdfs:label>
+    <rdfs:comment>Information is not conveyed with sound alone.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Current location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Current location</rdfs:label>
+    <rdfs:comment>The current location within the view, multi-step process, and product is visually and programmatically indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Sensory characteristics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Sensory characteristics</rdfs:label>
+    <rdfs:comment>Instructions and help do not rely on sensory characteristics.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Notification of change">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Notification of change</rdfs:label>
+    <rdfs:comment>Changes in content and updates notify users, regardless of the update speed.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Interaction indicators contrast">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Interaction indicators contrast</rdfs:label>
+    <rdfs:comment>Interaction indicators meet a ‘minimum contrast ratio text’ and meet a minimum thickness.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Allow automated entry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Allow automated entry</rdfs:label>
+    <rdfs:comment>Automated input from user agents, 3rd party tools, or copy-and-paste is supported.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Speed insensitive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Speed insensitive</rdfs:label>
+    <rdfs:comment>Use of a pointer does not require a particular speed of pointer movement or click activation.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Content orientation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Content orientation</rdfs:label>
+    <rdfs:comment>Content orientation allows the user to read the language presented without changing head position.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Section length">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Section length</rdfs:label>
+    <rdfs:comment>Content is organized into short sections of related content.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Consistent navigation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Consistent navigation</rdfs:label>
+    <rdfs:comment>Navigation elements remain consistent across views within the product.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Supplements to text">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Supplements to text</rdfs:label>
+    <rdfs:comment>Visual illustrations, pictures, and images are available to help explain complex ideas, events, and processes.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Redirection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Redirection</rdfs:label>
+    <rdfs:comment>A mechanism is available to prevent fraudulent redirection or alert users they are exiting the site.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Restore focus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Restore focus</rdfs:label>
+    <rdfs:comment>The focus or point of regard is restored to its previous location after a temporary change of view.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Pointer cancellation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pointer cancellation</rdfs:label>
+    <rdfs:comment>Pointer cancellation is consistent.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Support available">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Support available</rdfs:label>
+    <rdfs:comment>Accessible support during data entry, task completion and search is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Order of content">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Order of content</rdfs:label>
+    <rdfs:comment>Related information is grouped together within a visual and programmatic structure.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Supplements to numerical concepts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Supplements to numerical concepts</rdfs:label>
+    <rdfs:comment>Text or visual alternatives are available for numerical concepts.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Social media algorithm">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Social media algorithm</rdfs:label>
+    <rdfs:comment>A mechanism is available to understand and control social media algorithms.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Control updates">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Control updates</rdfs:label>
+    <rdfs:comment>Changes to control or input name, roles, values or states are visually and programmatically indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Interactive audio alternative">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Interactive audio alternative</rdfs:label>
+    <rdfs:comment>The ability to look up terms within audio alternatives is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Reliable positioning">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Reliable positioning</rdfs:label>
+    <rdfs:comment>Interactive components retain their position unless a user changes the viewport or moves the component.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Sentence voice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Sentence voice</rdfs:label>
+    <rdfs:comment>The voice used is easiest to understand in context.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Semantic text appearance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Semantic text appearance</rdfs:label>
+    <rdfs:comment>Meaning conveyed by text appearance is programmatically available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Finding media alternatives">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Finding media alternatives</rdfs:label>
+    <rdfs:comment>Media that has the desired media alternatives (captions, audio descriptions, and descriptive transcripts) can be found.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Help using new interfaces">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Help using new interfaces</rdfs:label>
+    <rdfs:comment>Help using new or changed interfaces is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Virtual cursor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Virtual cursor</rdfs:label>
+    <rdfs:comment>Assistive technologies can access content and interactions when mechanisms that convey alternative points of regard or focus (i.e. virtual cursor) are used.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Triggers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Trigger Audio and Video</rdfs:label>
+    <rdfs:comment>Triggering content is indicated and the content and trigger warnings can be hidden.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Descriptive transcripts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Descriptive transcripts</rdfs:label>
+    <rdfs:comment>Equivalent audio and visual alternatives to audio and video alternatives are available in descriptive transcripts.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Ambiguous pronunciation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ambiguous pronunciation</rdfs:label>
+    <rdfs:comment>All letters and diacritics needed to phonetically read words are available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Persistent navigation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Persistent navigation</rdfs:label>
+    <rdfs:comment>Navigation features remain available, regardless of screen size and magnification (responsive design).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Visible error">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Visible error</rdfs:label>
+    <rdfs:comment>Error notifications are visually collocated with the source of the error within the viewport, or provide a link to the source of the error which, when activated, moves the viewport to the error.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/3rd party content presentation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>3rd party content presentation</rdfs:label>
+    <rdfs:comment>Advertising and other third-party content that obscures the primary content can be moved or removed before interacting with it.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Deceptive controls">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Deceptive controls</rdfs:label>
+    <rdfs:comment>Controls and interactions are not deceptively designed (invisible, incorrectly labeled, placement, etc.).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Acronyms and abbreviations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Acronyms and abbreviations</rdfs:label>
+    <rdfs:comment>The expanded form or meaning of abbreviations and acronyms is available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Citation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Citation</rdfs:label>
+    <rdfs:comment>The source of the interface and primary content is visually and programmatically indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Transform content">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Transform content</rdfs:label>
+    <rdfs:comment>Content can be transformed to make its purpose clearer.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Action required">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Action required</rdfs:label>
+    <rdfs:comment>The interface indicates when user input or action is required to proceed.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Caption control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Caption control</rdfs:label>
+    <rdfs:comment>The position and formatting of captions can be changed.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Unnecessary words or phrases">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Unnecessary words or phrases</rdfs:label>
+    <rdfs:comment>Sentences are concise, without unnecessary filler words and phrases.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Error identification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Error identification</rdfs:label>
+    <rdfs:comment>Errors are visually identifiable without relying on only text, only color, or only symbols.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Behavior of controls">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Behavior of controls</rdfs:label>
+    <rdfs:comment>Controls and inputs with the same functionality behave consistently.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Control interruptions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Control interruptions</rdfs:label>
+    <rdfs:comment>The timing and positioning of notifications and other interruptions can be changed, suppressed or saved, except interruptions involving an emergency.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Specific pressure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Specific pressure</rdfs:label>
+    <rdfs:comment>Click activation using a pointer device does not require applying a specific pressure.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Indicate 3rd party content">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Indicate 3rd party content</rdfs:label>
+    <rdfs:comment>Third party content (AI, Advertising, etc.) is visually and programmatically indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Notify on change">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Notify on change</rdfs:label>
+    <rdfs:comment>Notification is provided when previously viewed content changes.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Conversational support">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Conversational support</rdfs:label>
+    <rdfs:comment>Conversational support is available that allows both text and verbal communication.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Use without body movement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Use without body movement</rdfs:label>
+    <rdfs:comment>All functionality can be done without needing to move their body, except for accessibility supported input devices.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Audio shifting">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Audio shifting</rdfs:label>
+    <rdfs:comment>Audio shifting designed to create a perception of motion is avoided; or can be paused or prevented.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Risk statements">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Risk statements</rdfs:label>
+    <rdfs:comment>Clear explanations of the risks and consequences of choices, including use, are stated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Steps and direction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Steps and direction</rdfs:label>
+    <rdfs:comment>The steps and directions needed to complete a process are visually and programmatically indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/No cognitive tests">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>No cognitive tests</rdfs:label>
+    <rdfs:comment>Tasks, including login/authentication, can be completed without puzzles, calculations, or other cognitive tests (essential exceptions would apply).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Text minimum">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Text minimum</rdfs:label>
+    <rdfs:comment>The rendered text meets a minimum font size and weight.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Consistent keyboard interaction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Consistent keyboard interaction</rdfs:label>
+    <rdfs:comment>Keyboard interface interactions are consistent.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Consistent order">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Consistent order</rdfs:label>
+    <rdfs:comment>The order of content and interactions remain consistent throughout a workflow.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Keyboard commands">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Keyboard commands</rdfs:label>
+    <rdfs:comment>Application keyboard commands do not conflict with platform commands, and the user is informed of non-standard commands.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Adequate time">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Adequate time</rdfs:label>
+    <rdfs:comment>Enough time is provided to read and use content.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Non-Text contrast">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Non-Text contrast</rdfs:label>
+    <rdfs:comment>Visual information required to identify user interface components and states meet a ‘minimum contrast ratio test’, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Pointer-agnostic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pointer-agnostic</rdfs:label>
+    <rdfs:comment>Functionality which supports pointers can be used by any pointing device supported by the platform.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Sensitive information">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Sensitive information</rdfs:label>
+    <rdfs:comment>Prompts to hide and remove sensitive information from observers are available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Image alternatives">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Image alternatives</rdfs:label>
+    <rdfs:comment>Equivalent text alternatives are available for images that convey content.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Distinguishable controls">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Distinguishable controls</rdfs:label>
+    <rdfs:comment>Controls are visually distinct from static content and include visual cues on how to use them.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Use of color">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Use of color</rdfs:label>
+    <rdfs:comment>Information is not conveyed with color alone.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Adjust color">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Adjust color</rdfs:label>
+    <rdfs:comment>Text and background colors can be customized.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Audio descriptions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Audio descriptions</rdfs:label>
+    <rdfs:comment>Equivalent visual alternatives are available as synchronized audio in the media.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Assistive technology control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>AT control</rdfs:label>
+    <rdfs:comment>Content can be controlled using assistive and adaptive technology.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Exploitive behaviors">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Exploitive behaviors</rdfs:label>
+    <rdfs:comment>Task completion does not include exploitive behaviors.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Motion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Motion</rdfs:label>
+    <rdfs:comment>Visual motion and pseudo-motion after a specified time is avoided; or can be paused or prevented.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Chunk content">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Chunk content</rdfs:label>
+    <rdfs:comment>Large amounts of data can be broken into smaller chunks.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Related information">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Related information</rdfs:label>
+    <rdfs:comment>Information required to understand options is adjacent to the options.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Text-to-speech supported">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Text-to-speech supported</rdfs:label>
+    <rdfs:comment>Text content can be converted into speech.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Verb tense">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Verb tense for instructions</rdfs:label>
+    <rdfs:comment>The verb tense used is easiest to understand in context.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Single idea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Single idea</rdfs:label>
+    <rdfs:comment>Each segment of text [such as sentence, paragraph, bullet] presents one concept.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Focus in viewport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Focus in viewport</rdfs:label>
+    <rdfs:comment>The focus does not move to a position outside the current viewport, unless a mechanism is available to return to the previous focus point.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Save progress">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Save progress</rdfs:label>
+    <rdfs:comment>Data entry and other task completion processes allow saving and resuming from the current step in the task.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Keyboard only">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Keyboard only</rdfs:label>
+    <rdfs:comment>All functionality can be performed through the keyboard interface only, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Ambiguous numerical formatting">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ambiguous numerical formatting</rdfs:label>
+    <rdfs:comment>Alternative formats for ambiguous number formats are available.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Appropriate tone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Appropriate tone</rdfs:label>
+    <rdfs:comment>The language and tone used is respectful and appropriate to the topic or subject matter.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Preferences apply to printing.">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Preferences apply to printing.</rdfs:label>
+    <rdfs:comment>Printing respects user’s content presentation preferences.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Gestures &amp; dragging">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Gestures &amp; dragging</rdfs:label>
+    <rdfs:comment>Every function that can be operated by a pointer, can be operated by a ‘single pointer input’ or a sequence of single pointer inputs, without limitations on timing for input.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Keyboard focus location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Keyboard focus location</rdfs:label>
+    <rdfs:comment>The keyboard focus is visually indicated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/arco/ontology/location/Interface redesign">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Interface redesign</rdfs:label>
+    <rdfs:comment>When interfaces dramatically change (due to redesign), a mechanism to learn the new interface or revert to the older design is available.</rdfs:comment>
+  </rdf:Description>
+</rdf:RDF>
