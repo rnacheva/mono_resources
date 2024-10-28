@@ -1,0 +1,169 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Orange Report</title>
+
+    <style>
+    html, body, table {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        margin:0px;
+        padding:0;
+        border:0 none;
+    }
+
+    h1, h2 , h3, h4, h5 {
+       padding: 1px;
+       font-size:100%;
+    }
+
+    h1 {
+        color: white;
+        background-color: black;
+        padding: 4px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+
+    h2 {
+        border-bottom: 1px solid black;
+        padding-left: 2px;
+    }
+
+    ul, table, p {
+        padding: 10px;
+    }
+
+    table {
+        margin-left: -6px;
+    }
+
+    span.timestamp {
+        position: absolute;
+        right: 40px;
+        color:#ddd;
+    }
+
+    div.selected, div.normal {
+        margin: 5px;
+    }
+
+    div.selected {
+        background: #ddd;
+    }
+    @media print{
+        div.selected {
+            background: inherit;
+        }
+        ::-webkit-input-placeholder {
+            color: transparent;
+        }
+    }
+
+    div.content {
+        margin-left: 15px;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 2px 6px 2px 6px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    @media screen {
+        td, th {
+            white-space: nowrap;
+        }
+    }
+
+    .caption {
+        text-align: center;
+        font-size: 90%;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        max-height: 20cm;
+    }
+
+    span.legend-square {
+        width: 1em;
+        height: 1em;
+        margin-right: 6px;
+        display: inline-block;
+    }
+
+    span.legend-item {
+        margin-right: 24px;
+    }
+
+    textarea {
+        border: 1px solid silver;
+        font-style: italic;
+        width: 100%;
+        height: 4em;
+    }
+
+    .textwrapper {
+        padding: 15px;
+    }
+
+    div.normal textarea:invalid {
+        display: none;
+    }
+
+    div.selected textarea {
+        display: block;
+    }
+
+    @media print{
+        section.section, img {
+            page-break-inside: avoid;
+        }
+    }
+    </style>
+    <script>
+    function scrollToId(id) {
+        var sel_el = document.getElementById(id);
+        if (sel_el != undefined) {
+            sel_el.scrollIntoView();
+            return true;
+        }
+        return false;
+    };
+
+    function setSelectedId(id) {
+        var sel_el = document.getElementsByClassName('selected')[0];
+        if (sel_el != undefined && sel_el.id != id) {
+           sel_el.className = 'normal';
+        }
+        sel_el = document.getElementById(id);
+        if (sel_el != undefined) {
+            sel_el.className = 'selected';
+            return true;
+        }
+        return false;
+    };
+    </script>
+
+</head><body onload="(function (id) {     setSelectedId(id); scrollToId(id); }(&quot;2230636741536&quot;));">
+
+ 
+
+<div id="2230636741536" class="selected" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Ontology <span class="timestamp">Sun Oct 27 24, 22:40:16</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Data Mining Tool:</b> The ontology is generated with <a href="https://orangedatamining.com/" target="_blank">Orange Data Mining Tool</a>. The experiment is based on dataset including international digital accessibility standards.<br></ul><h2>Ontology</h2>
+        <style>
+            ul {
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 20px;
+            }
+        </style>
+        <ul><li>color text background<ul><li>success criterion consistent<ul><li>navigational mechanism repeated<ul><li>task completion process</li><li>control follow established</li></ul></li><li>criterion target size<ul><li>information platform accessibility<ul><li>understanding operating content<ul><li>instruction complex process</li></ul></li><li>follow established convention<ul><li>input mode indicated</li><li>language status message<ul><li>mechanism feedback provided</li><li>trigger additional content<ul><li>completed without entering</li><li>security content required</li><li>user interface setting<ul><li>accessible authentication minimum</li><li>section visually programmatically</li><li>context image alternative</li></ul></li></ul></li><li>information conveyed color<ul><li>accessibility guideline platform<ul><li>criterion accessible authentication<ul><li>visible task completion</li><li>characteristic provided speech<ul><li>letter punctuation number</li><li>caption provided prerecorded<ul><li>information conveyed sound<ul><li>cancellation pointer cancellation</li><li>caption audio description</li><li>component determined user<ul><li>text alternative content</li><li>use input modality<ul><li>personalizable help available</li><li>description medium alternative</li><li>including assistive technology<ul><li>completed without memorizing</li><li>completion detailed documentation<ul><li>verb tense used</li><li>task completion documentation</li></ul></li><li>color size visual</li></ul></li></ul></li></ul></li><li>content presentation preference</li></ul></li><li>visual information required</li></ul></li><li>characteristic synthesized speech</li><li>criterion consistent help</li></ul></li><li>caption provided live</li></ul></li><li>user interface accessibility</li></ul></li><li>accessibility information platform</li><li>criterion focus appearance<ul><li>user style supported<ul><li>caption sign language</li><li>characteristic selection highlighting</li><li>bias algorithm including</li></ul></li><li>control position formatting</li></ul></li></ul></li></ul></li></ul></li><li>information search scan<ul><li>using editing view</li><li>synthesized speech feature</li><li>command user informed</li></ul></li></ul></li><li>help adaptable personalizable<ul><li>ai editable auto</li></ul></li></ul></li></ul></li></ul></li></ul></div></section>
+
+
+    </div></body></html>
