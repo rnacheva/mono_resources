@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0-beta.0",
+  "version": "2.3.1-beta.0",
   "visualisation": {
     "nodes": [
       {
@@ -24,17 +24,10 @@
         }
       },
       {
-        "id": "n:4",
-        "position": {
-          "x": 265.46247795168426,
-          "y": -72.27814429817515
-        }
-      },
-      {
         "id": "n:5",
         "position": {
-          "x": 288.1845562509198,
-          "y": 107.68505124194037
+          "x": 281.9543063826678,
+          "y": -33.11859578055383
         }
       },
       {
@@ -110,7 +103,7 @@
     ]
   },
   "dataModel": {
-    "version": "2.0.0-beta.0",
+    "version": "2.3.1-beta.0",
     "graphSchemaRepresentation": {
       "version": "1.0.0",
       "graphSchema": {
@@ -161,11 +154,6 @@
           {
             "$id": "nl:3",
             "token": "Приобщаване към работното място",
-            "properties": []
-          },
-          {
-            "$id": "nl:4",
-            "token": "Многообразие",
             "properties": []
           },
           {
@@ -483,16 +471,6 @@
         ],
         "relationshipTypes": [
           {
-            "$id": "rt:4",
-            "token": "се характеризира с",
-            "properties": []
-          },
-          {
-            "$id": "rt:6",
-            "token": "допринася за",
-            "properties": []
-          },
-          {
             "$id": "rt:8",
             "token": "включва",
             "properties": []
@@ -576,6 +554,11 @@
             "$id": "rt:19",
             "token": "зависи от",
             "properties": []
+          },
+          {
+            "$id": "rt:4",
+            "token": "зависи от",
+            "properties": []
           }
         ],
         "nodeObjectTypes": [
@@ -600,14 +583,6 @@
             "labels": [
               {
                 "$ref": "#nl:3"
-              }
-            ]
-          },
-          {
-            "$id": "n:4",
-            "labels": [
-              {
-                "$ref": "#nl:4"
               }
             ]
           },
@@ -701,30 +676,6 @@
           }
         ],
         "relationshipObjectTypes": [
-          {
-            "$id": "r:4",
-            "type": {
-              "$ref": "#rt:4"
-            },
-            "from": {
-              "$ref": "#n:4"
-            },
-            "to": {
-              "$ref": "#n:5"
-            }
-          },
-          {
-            "$id": "r:6",
-            "type": {
-              "$ref": "#rt:6"
-            },
-            "from": {
-              "$ref": "#n:3"
-            },
-            "to": {
-              "$ref": "#n:4"
-            }
-          },
           {
             "$id": "r:8",
             "type": {
@@ -927,6 +878,18 @@
             },
             "to": {
               "$ref": "#n:7"
+            }
+          },
+          {
+            "$id": "r:4",
+            "type": {
+              "$ref": "#rt:4"
+            },
+            "from": {
+              "$ref": "#n:3"
+            },
+            "to": {
+              "$ref": "#n:5"
             }
           }
         ],
@@ -1302,7 +1265,7 @@
     },
     "graphMappingRepresentation": {
       "dataSourceSchema": {
-        "type": "unset",
+        "type": null,
         "tableSchemas": []
       },
       "nodeMappings": [],
